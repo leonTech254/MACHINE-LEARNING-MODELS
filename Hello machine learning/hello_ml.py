@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 
 """loading the dataset using pandas"""
 """path to the dataset"""
-path="./datasets/iris.csv" 
+path="../datasets/iris.csv" 
 dataset=pd.read_csv(path)
 
 """
